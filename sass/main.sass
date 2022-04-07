@@ -200,7 +200,7 @@ body
 
     &-subtitle
         color: $accent-color
-        background: #{scale-color( $accent-color, $alpha: -90% )}
+        background: #{scale-color( $accent-color, $alpha: -94% )}
         padding: 7px 21px
         border-radius: 25px
 
@@ -245,3 +245,33 @@ body
                 display: block
                 margin-right: 25px
                 color: $lighter-color
+
+.section-six
+    margin-top: 70px
+    background: #{scale-color( $accent-color, $alpha: -94% )}
+    padding: 60px
+    border-radius: 25px
+    text-align: center
+
+    @include breakpoint-lg
+        padding: 60px 150px
+
+    &-subtitle
+        font-weight: 500
+        color: $accent-color
+        margin-bottom: 20px
+
+    &-title
+        font-weight: 500
+        font-size: 2rem
+        margin-bottom: 20px
+
+    &-source
+        img
+            margin-bottom: 15px
+
+        &-author
+            margin-bottom: 10px
+
+        &-role
+            color: $lighter-color

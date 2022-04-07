@@ -210,7 +210,7 @@ body {
 }
 .section-four-subtitle {
   color: #8E2424;
-  background: rgba(142, 36, 36, 0.1);
+  background: rgba(142, 36, 36, 0.06);
   padding: 7px 21px;
   border-radius: 25px;
 }
@@ -257,6 +257,38 @@ body {
 .section-five-item-detail span {
   display: block;
   margin-right: 25px;
+  color: #667085;
+}
+
+.section-six {
+  margin-top: 70px;
+  background: rgba(142, 36, 36, 0.06);
+  padding: 60px;
+  border-radius: 25px;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .section-six {
+    padding: 60px 150px;
+  }
+}
+.section-six-subtitle {
+  font-weight: 500;
+  color: #8E2424;
+  margin-bottom: 20px;
+}
+.section-six-title {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.section-six-source img {
+  margin-bottom: 15px;
+}
+.section-six-source-author {
+  margin-bottom: 10px;
+}
+.section-six-source-role {
   color: #667085;
 }
 
