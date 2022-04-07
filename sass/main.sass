@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap")
+
 $accent-color: #8E2424
 $darker-color: #101828
 $lighter-color: #667085
@@ -21,8 +23,6 @@ $lighter-color: #667085
 @mixin breakpoint-xxl
     @media (min-width: 1400px)
         @content
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap")
 
 *
     margin: 0
@@ -263,8 +263,11 @@ body
 
     &-title
         font-weight: 500
-        font-size: 2rem
+        font-size: 1.3rem
         margin-bottom: 20px
+
+        @include breakpoint-lg
+            font-size: 2rem
 
     &-source
         img
@@ -275,3 +278,52 @@ body
 
         &-role
             color: $lighter-color
+
+.footer
+    background: #F9FAFB
+    margin-top: 70px
+    text-align: center
+    padding: 80px
+
+    @include breakpoint-lg
+        padding: 80px 150px
+
+    &-title
+        margin-bottom: 20px
+        font-weight: 400
+
+    &-subtitle
+        color: $lighter-color
+        font-weight: 400
+        margin-bottom: 30px
+
+    &-form
+        display: flex
+        justify-content: center
+        flex-direction: column
+        align-items: flex-start
+        margin-bottom: 30px
+
+        @include breakpoint-lg
+            flex-direction: row
+
+        button
+            width: 100%
+
+            @include breakpoint-lg
+                width: auto
+
+        input
+            border: 1px solid #eeee
+            border-radius: 8px
+            box-sizing: border-box
+            width: 100%
+            padding: 13px 10px
+            margin: 0 0 10px
+
+            @include breakpoint-lg
+                max-width: 300px
+                margin: 0 10px 0 0
+
+    &-legend
+        color: $lighter-color
