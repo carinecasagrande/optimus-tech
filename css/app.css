@@ -165,11 +165,11 @@ body {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.1);
 }
 
-.section-one, .section-two {
+.section-two, .section-three, .section-four {
   margin-top: 96px;
 }
 
-.section-two {
+.section-three {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -177,32 +177,53 @@ body {
   flex-direction: column;
 }
 @media (min-width: 992px) {
-  .section-two {
+  .section-three {
     flex-direction: row;
   }
 }
-.section-two-item {
+.section-three-item {
   width: 100%;
   padding: 0 15px 15px;
 }
 @media (min-width: 992px) {
-  .section-two-item {
+  .section-three-item {
     width: 25%;
   }
 }
-.section-two-item-number {
+.section-three-item-number {
   color: #8E2424;
   font-weight: 500;
   font-size: 3rem;
   margin-bottom: 10px;
 }
-.section-two-item-title {
+.section-three-item-title {
   font-weight: 600;
   font-size: 1.1rem;
   margin-bottom: 6px;
 }
-.section-two-item-subtitle {
+.section-three-item-subtitle {
   color: #667085;
+}
+
+.section-four {
+  text-align: center;
+}
+.section-four-subtitle {
+  color: #8E2424;
+  background: rgba(142, 36, 36, 0.1);
+  padding: 7px 21px;
+  border-radius: 25px;
+}
+.section-four-title {
+  margin-top: 30px;
+}
+.section-four-text {
+  margin-top: 20px;
+  color: #667085;
+}
+.section-four img {
+  margin-top: 50px;
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */

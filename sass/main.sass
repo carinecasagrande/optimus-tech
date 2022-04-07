@@ -161,10 +161,10 @@ body
                 &:hover
                     box-shadow: inset 0 0 0 9999px rgb(0 0 0 / 10%)
 
-.section-one, .section-two
+.section-two, .section-three, .section-four
     margin-top: 96px
 
-.section-two
+.section-three
     width: 100%
     display: flex
     justify-content: center
@@ -194,3 +194,23 @@ body
 
         &-subtitle
             color: $lighter-color
+
+.section-four
+    text-align: center
+
+    &-subtitle
+        color: $accent-color
+        background: #{scale-color( $accent-color, $alpha: -90% )}
+        padding: 7px 21px
+        border-radius: 25px
+
+    &-title
+        margin-top: 30px
+
+    &-text
+        margin-top: 20px
+        color: $lighter-color
+
+    img
+        margin-top: 50px
+        max-width: 100%
