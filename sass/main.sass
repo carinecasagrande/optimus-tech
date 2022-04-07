@@ -214,3 +214,34 @@ body
     img
         margin-top: 50px
         max-width: 100%
+
+.section-five
+    max-width: 100%
+    margin: 0 auto
+
+    @include breakpoint-lg
+        max-width: 70%
+
+    &-title
+        margin-top: 50px
+        font-size: 1.3rem
+        margin-bottom: 20px
+
+    &-item
+        border: 1px solid #eeee
+        border-radius: 15px
+        margin-bottom: 20px
+        padding: 30px
+
+        &-title
+            margin-bottom: 30px
+            font-size: 1.1rem
+            font-weight: 500
+
+        &-detail
+            display: flex
+
+            span
+                display: block
+                margin-right: 25px
+                color: $lighter-color

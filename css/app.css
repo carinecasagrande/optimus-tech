@@ -226,4 +226,38 @@ body {
   max-width: 100%;
 }
 
+.section-five {
+  max-width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  .section-five {
+    max-width: 70%;
+  }
+}
+.section-five-title {
+  margin-top: 50px;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+.section-five-item {
+  border: 1px solid #eeee;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+.section-five-item-title {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.section-five-item-detail {
+  display: flex;
+}
+.section-five-item-detail span {
+  display: block;
+  margin-right: 25px;
+  color: #667085;
+}
+
 /*# sourceMappingURL=app.css.map */
